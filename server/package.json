@@ -1,0 +1,28 @@
+{
+  "name": "hhapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syrovezhko/hhapp.git"
+  },
+  "author": "Nikolai Syrovezhko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syrovezhko/hhapp/issues"
+  },
+  "homepage": "https://github.com/syrovezhko/hhapp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
